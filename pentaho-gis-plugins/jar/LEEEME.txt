@@ -1,0 +1,5 @@
+Para que funcione hemos tenido que metr a mano en el directorio lib las siguientes librerias:
+
+jackson-core-asl-1.9.2.jar
+jackson-jaxrs-1.9.2.jar
+jackson-mapper-asl-1.9.2.jar
