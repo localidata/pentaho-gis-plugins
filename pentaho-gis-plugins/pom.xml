@@ -127,6 +127,16 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
       <id>springio</id>
       <url>https://repo.spring.io/plugins-release/</url>
     </repository>
+	<repository>
+      <id>52north.org-releases</id>
+      <name>52north.org-releases</name>
+      <url>http://52north.org/maven/repo/releases/</url>
+    </repository>
+    <repository>
+      <id>datanucleus</id>
+      <name>datanucleus</name>
+      <url>http://www.datanucleus.org/downloads/maven2/</url>
+    </repository>
   </repositories>
 
 	
@@ -256,11 +266,24 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
       <artifactId>spatialite</artifactId>
       <version>1.1</version>
     </dependency>
-	<dependency>
-    <groupId>org.wololo</groupId>
-    <artifactId>jts2geojson</artifactId>
-    <version>0.14.1</version>
-</dependency>
+	
+
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-core-asl</artifactId>
+      <version>1.9.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-jaxrs</artifactId>
+      <version>1.9.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-mapper-asl</artifactId>
+      <version>1.9.2</version>
+    </dependency>
+
   </dependencies>
 
   <organization>
